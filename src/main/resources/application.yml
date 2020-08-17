@@ -1,0 +1,14 @@
+server:
+  port: 9000
+spring:
+  datasource:
+    hikari:
+      jdbc-url: jdbc:mysql://3.34.92.128/wilson
+      username: plkdev
+      password: vldpfzpdl12#
+      driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
+        hbm2ddl: validate
